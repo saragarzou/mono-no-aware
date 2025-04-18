@@ -68,6 +68,7 @@ initialGrid = array ((0,0), (width-1, height-1))
   where
     glider = [(1,0), (2,1), (0,2), (1,2), (2,2)]
 
+
 -- runs FOREVER never STOP running PLEASE
 gameLoop :: Grid -> IO ()
 gameLoop grid = do
